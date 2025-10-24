@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="aaaa8250-4180-3840-79b5-4cada1eebb92">
+    <mxGraphModel dx="1489" dy="821" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="PUYSzPVfOC1NRjp-dXGH-1" target="PUYSzPVfOC1NRjp-dXGH-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="730" y="320" />
+              <mxPoint x="730" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-9" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PUYSzPVfOC1NRjp-dXGH-3">
+          <mxGeometry x="-0.1367" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-1" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="550" y="260" width="100" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1" source="PUYSzPVfOC1NRjp-dXGH-2" target="PUYSzPVfOC1NRjp-dXGH-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-2" value="Lambda" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="800" y="273.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;flowAnimation=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="551" y="320" as="targetPoint" />
+            <mxPoint x="431" y="450" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="431" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-8" value="AWS CLI&lt;div&gt;Transfer File&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PUYSzPVfOC1NRjp-dXGH-7">
+          <mxGeometry x="-0.4434" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-4" value="Arquivo" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;flowAnimation=1;" edge="1" parent="1" source="PUYSzPVfOC1NRjp-dXGH-5" target="PUYSzPVfOC1NRjp-dXGH-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-5" value="Sistema de arquivos" style="html=1;outlineConnect=0;whiteSpace=wrap;fillColor=#ffff99;verticalLabelPosition=bottom;verticalAlign=top;align=center;shape=mxgraph.archimate3.actor;" vertex="1" parent="1">
+          <mxGeometry x="650" y="455" width="26.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PUYSzPVfOC1NRjp-dXGH-10" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.dynamo_db;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="279.5" width="72" height="81" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

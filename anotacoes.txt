@@ -1,0 +1,16 @@
+# Gerenciando instâncias EC2 na AWS
+
+## 1. Anotações
+EC2: É o serviço da AWS que permite 'alugar'servidores virtuais na nuvem. Em vez de comprar
+um computador físico, eu posso criar um online em minutos.
+S3(Simple Storage Service): É um armazenamento de objetos para arquivos (como fotos, vídeos e backups) acessados pela internet.
+EBS (Elastic Block Store): É um armazenamento em blocos que funciona como um disco rígido virtual anexado diretamente a
+um único servidor EC2, usado para o sistema operacional e aplicativos.
+
+
+## 2. O que aprendi?
+
+Instância: É o nome que a AWS dá para o servidor virtual.
+AMI (Amazon Machine Image): É o "molde" do servidor. Define qual sistema operacional (Linux, Windows) e quais softwares já vêm instalados.
+Tipo de Instância (Instance Type): Define o poder do servidor (quanta CPU, memória RAM). O `t2.micro` é bom para testes e é gratuito.
+Desenhar arquitetura da AWS com software como Drawio.
